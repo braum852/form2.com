@@ -1,0 +1,93 @@
+body {
+    background-color:black;
+    background-image: url("air5.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.header {
+    margin: auto;
+  padding: 0px;
+  text-align: center;
+  background: #276eca;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fformat{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    background-color: midnightblue;
+    border: none;
+    display: inline;
+    vertical-align: top
+}
+#fcontainer {
+    display: inline-block;
+    border-color: cyan;
+    border-width: auto;
+    border-top: auto;
+    border-style: groove;
+    background-color: rgb(131, 199, 202);
+    text-align: center;
+    vertical-align: middle;
+}
+legend {
+    background-color: gray;
+    border: 3px outset white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+  #fcontainer2 {
+    display: inline-block;
+    border-color: cyan;
+    border-width: auto;
+    border-top: auto;
+    border-style: groove;
+    background-color: rgb(131, 199, 202);
+    text-align: center;
+    font-size: large;
+    
+}
+legend2 {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  footer{
+      float: right;
+  }
+  .color-container{
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+    margin: 0 2cm;
+    color: white;
+    padding: 100px 0 0 0;
+}
+#color-brown{
+    background-color: brown;
+}
+#color-brown:hover{
+    background-color:magenta;
+}
+#color-blue{
+    background-color: blue;
+}
+#color-blue:hover{
+    background-color:yellow;
+}
+#color-violet{
+    background-color:violet;
+}
+#color-violet:hover{
+    background-color:aquamarine;
+}
